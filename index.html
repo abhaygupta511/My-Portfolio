@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhay Gupta | Graphic & Motion Designer</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts & Lucide Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Syne"', 'sans-serif'],
+          },
+          colors: {
+            dark: {
+              950: '#070709',
+              900: '#0d0d11',
+              800: '#15151c',
+              700: '#1f1f2a',
+            },
+            accent: {
+              DEFAULT: '#6366f1',
+              glow: '#818cf8',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glow-bg {
+      background: radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.18) 0%, rgba(13, 13, 17, 0) 65%);
+    }
+  </style>
+</head>
+<body class="bg-dark-950 text-zinc-100 font-sans antialiased selection:bg-accent selection:text-white">
+
+  <!-- Glow Backdrop -->
+  <div class="fixed inset-0 glow-bg pointer-events-none z-0"></div>
+
+  <!-- Header / Navigation -->
+  <header class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-dark-950/80 border-b border-zinc-800/60">
+    <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#" class="font-display text-xl sm:text-2xl font-extrabold tracking-tight text-white hover:text-accent transition">
+        ABHAY GUPTA<span class="text-accent">.</span>
+      </a>
+      
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
+        <a href="#work" class="hover:text-white transition">Work</a>
+        <a href="#experience" class="hover:text-white transition">Experience</a>
+        <a href="#about" class="hover:text-white transition">About</a>
+        <a href="#skills" class="hover:text-white transition">Toolkit</a>
+      </nav>
+
+      <div class="flex items-center gap-3 sm:gap-4">
+        <a href="https://www.linkedin.com/in/abhay-gupta-377b91340?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" class="text-zinc-400 hover:text-white transition p-2" aria-label="LinkedIn">
+          <i data-lucide="linkedin" class="w-5 h-5"></i>
+        </a>
+        <a href="https://www.instagram.com/creative.studi01?igsh=MTFycDZ6cm9zMnpnYw==" target="_blank" rel="noopener noreferrer" class="text-zinc-400 hover:text-white transition p-2" aria-label="Instagram">
+          <i data-lucide="instagram" class="w-5 h-5"></i>
+        </a>
+        <a href="mailto:510abhaygupta@gmail.com" class="text-zinc-400 hover:text-white transition p-2 hidden sm:block" aria-label="Email">
+          <i data-lucide="mail" class="w-5 h-5"></i>
+        </a>
+        <a href="tel:+919065276184" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider bg-white text-dark-950 hover:bg-accent hover:text-white transition shadow-sm">
+          Call Now
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10 pt-32">
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-6 pt-16 pb-24 md:pt-24 md:pb-32">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-zinc-800 bg-dark-900 text-xs text-zinc-400 mb-8">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        Available for freelance, agency & collaborative roles
+      </div>
+
+      <h1 class="font-display text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight leading-[1.08] mb-8">
+        Hi, I'm Abhay Gupta. <br class="hidden sm:block">
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-accent">
+          Designing visuals in motion.
+        </span>
+      </h1>
+
+      <p class="text-lg md:text-xl text-zinc-400 max-w-2xl font-normal leading-relaxed mb-10">
+        Graphic & Motion Designer with hands-on experience in branding, social media design, motion graphics, and visual storytelling[cite: 1]. Fluent in AI-assisted design workflows (Midjourney, Runway ML, Adobe Firefly)[cite: 1].
+      </p>
+
+      <div class="flex flex-wrap items-center gap-4">
+        <a href="Abhay_Gupta_CV..pdf" target="_blank" class="px-7 py-3.5 rounded-xl bg-accent text-white font-semibold text-sm hover:bg-indigo-600 transition shadow-lg shadow-accent/25 inline-flex items-center gap-2">
+          <i data-lucide="file-text" class="w-4 h-4"></i>
+          <span>View Resume</span>
+        </a>
+        <a href="https://drive.google.com/drive/folders/1L7HxtX1bcplOvW0JS-9Ap97aK-gqzkoG?usp=drive_link" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl border border-zinc-800 bg-dark-900/60 text-zinc-300 font-semibold text-sm hover:bg-dark-800 transition inline-flex items-center gap-2">
+          <span>Master Drive</span>
+          <i data-lucide="external-link" class="w-4 h-4"></i>
+        </a>
+        <a href="#work" class="px-7 py-3.5 rounded-xl border border-zinc-800 bg-dark-900/60 text-zinc-300 font-semibold text-sm hover:bg-dark-800 transition">
+          View Projects
+        </a>
+      </div>
+    </section>
+
+    <!-- Selected Work Section -->
+    <section id="work" class="max-w-6xl mx-auto px-6 py-20 border-t border-zinc-800/80">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-xs uppercase tracking-widest text-accent font-semibold">Portfolio Showcase</span>
+          <h2 class="font-display text-3xl md:text-4xl font-bold mt-2">Work by Category</h2>
+        </div>
+        <a href="https://drive.google.com/drive/folders/1L7HxtX1bcplOvW0JS-9Ap97aK-gqzkoG?usp=drive_link" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm text-accent hover:underline mt-4 md:mt-0 font-medium">
+          <span>View all creative assets on Drive</span>
+          <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Category 1: Social Media Posts -->
+        <a href="https://drive.google.com/drive/folders/1cw4BnVrcx9HhchrEp4RV4px2-kjombSH?usp=sharing" target="_blank" rel="noopener noreferrer" class="group rounded-2xl border border-zinc-800/80 bg-dark-900/50 overflow-hidden hover:border-accent/60 transition duration-300 block">
+          <div class="aspect-video bg-zinc-900 relative overflow-hidden flex items-center justify-center">
+            <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=1200&q=80" alt="Social Media Posts" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-dark-950/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="px-4 py-2 rounded-lg bg-white text-dark-950 text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1.5">
+                <span>Open Social Posts</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </span>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-2 text-xs text-accent font-semibold mb-2">
+              <i data-lucide="share-2" class="w-3.5 h-3.5"></i>
+              <span>Social Media Design</span>
+            </div>
+            <h3 class="text-xl font-bold text-white group-hover:text-accent transition">Social Media Posts</h3>
+            <p class="text-sm text-zinc-400 mt-2 line-clamp-2">
+              Engaging feed graphics, promotional carousels, campaign creatives, and brand awareness banners.
+            </p>
+          </div>
+        </a>
+
+        <!-- Category 2: Video & Animation -->
+        <a href="https://drive.google.com/drive/folders/1WUNyf6fVCoQKGrlD6700gRtnNkJG20bi?usp=sharing" target="_blank" rel="noopener noreferrer" class="group rounded-2xl border border-zinc-800/80 bg-dark-900/50 overflow-hidden hover:border-accent/60 transition duration-300 block">
+          <div class="aspect-video bg-zinc-900 relative overflow-hidden flex items-center justify-center">
+            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80" alt="Video & Animation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-dark-950/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="px-4 py-2 rounded-lg bg-white text-dark-950 text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1.5">
+                <span>Open Video Folder</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </span>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-2 text-xs text-accent font-semibold mb-2">
+              <i data-lucide="video" class="w-3.5 h-3.5"></i>
+              <span>Motion & Video</span>
+            </div>
+            <h3 class="text-xl font-bold text-white group-hover:text-accent transition">Video & Animation</h3>
+            <p class="text-sm text-zinc-400 mt-2 line-clamp-2">
+              Dynamic reels, kinetic typography, promotional sequences, and brand motion assets.
+            </p>
+          </div>
+        </a>
+
+        <!-- Category 3: Print Files -->
+        <a href="https://drive.google.com/drive/folders/1ug5aVU6oKO6HPvNcC0HcrFM0FL5U0inF?usp=sharing" target="_blank" rel="noopener noreferrer" class="group rounded-2xl border border-zinc-800/80 bg-dark-900/50 overflow-hidden hover:border-accent/60 transition duration-300 block">
+          <div class="aspect-video bg-zinc-900 relative overflow-hidden flex items-center justify-center">
+            <img src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=1200&q=80" alt="Print Files" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-dark-950/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="px-4 py-2 rounded-lg bg-white text-dark-950 text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1.5">
+                <span>Open Print Folder</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </span>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-2 text-xs text-accent font-semibold mb-2">
+              <i data-lucide="printer" class="w-3.5 h-3.5"></i>
+              <span>Collateral & Print</span>
+            </div>
+            <h3 class="text-xl font-bold text-white group-hover:text-accent transition">Print Design & Files</h3>
+            <p class="text-sm text-zinc-400 mt-2 line-clamp-2">
+              High-resolution print-ready layouts, brochures, marketing posters, and stationery systems.
+            </p>
+          </div>
+        </a>
+
+        <!-- Category 4: Presentations (PPT) -->
+        <a href="https://drive.google.com/drive/folders/1Y5btfAGWtaM1FBYqAU-F058MpwupHjN3?usp=sharing" target="_blank" rel="noopener noreferrer" class="group rounded-2xl border border-zinc-800/80 bg-dark-900/50 overflow-hidden hover:border-accent/60 transition duration-300 block">
+          <div class="aspect-video bg-zinc-900 relative overflow-hidden flex items-center justify-center">
+            <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1200&q=80" alt="Presentations" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-dark-950/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="px-4 py-2 rounded-lg bg-white text-dark-950 text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1.5">
+                <span>Open PPT Folder</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </span>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-2 text-xs text-accent font-semibold mb-2">
+              <i data-lucide="presentation" class="w-3.5 h-3.5"></i>
+              <span>Pitch Decks & Layouts</span>
+            </div>
+            <h3 class="text-xl font-bold text-white group-hover:text-accent transition">Presentations & Decks</h3>
+            <p class="text-sm text-zinc-400 mt-2 line-clamp-2">
+              Premium corporate pitch decks, structured storytelling decks, and brand guideline slides.
+            </p>
+          </div>
+        </a>
+
+        <!-- Category 5: Digital Mailers -->
+        <a href="https://drive.google.com/drive/folders/1PMhhsZsxW4VN-6SzyETSn4sraTL0VP3o?usp=drive_link" target="_blank" rel="noopener noreferrer" class="group rounded-2xl border border-zinc-800/80 bg-dark-900/50 overflow-hidden hover:border-accent/60 transition duration-300 block">
+          <div class="aspect-video bg-zinc-900 relative overflow-hidden flex items-center justify-center">
+            <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80" alt="Digital Mailers" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-dark-950/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="px-4 py-2 rounded-lg bg-white text-dark-950 text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1.5">
+                <span>Open Mailer Folder</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </span>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-2 text-xs text-accent font-semibold mb-2">
+              <i data-lucide="mail-check" class="w-3.5 h-3.5"></i>
+              <span>Email Marketing</span>
+            </div>
+            <h3 class="text-xl font-bold text-white group-hover:text-accent transition">Digital Mailers</h3>
+            <p class="text-sm text-zinc-400 mt-2 line-clamp-2">
+              Conversion-focused email graphics, newsletter layouts, promotional templates, and campaign visuals.
+            </p>
+          </div>
+        </a>
+
+        <!-- Category 6: Cue Cards & Quick Visuals -->
+        <a href="https://drive.google.com/drive/folders/1u9wXrH47r4Lw__jtST5AhjtNeA_Ys4PZ?usp=sharing" target="_blank" rel="noopener noreferrer" class="group rounded-2xl border border-zinc-800/80 bg-dark-900/50 overflow-hidden hover:border-accent/60 transition duration-300 block">
+          <div class="aspect-video bg-zinc-900 relative overflow-hidden flex items-center justify-center">
+            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80" alt="Cue Cards" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-dark-950/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="px-4 py-2 rounded-lg bg-white text-dark-950 text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1.5">
+                <span>Open Cue Cards</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </span>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-2 text-xs text-accent font-semibold mb-2">
+              <i data-lucide="layers" class="w-3.5 h-3.5"></i>
+              <span>Visual Cards & Guides</span>
+            </div>
+            <h3 class="text-xl font-bold text-white group-hover:text-accent transition">Cue Cards</h3>
+            <p class="text-sm text-zinc-400 mt-2 line-clamp-2">
+              Informational cue cards, bite-sized reference assets, and structured graphic summaries.
+            </p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="max-w-6xl mx-auto px-6 py-20 border-t border-zinc-800/80">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+        <div class="md:col-span-4">
+          <span class="text-xs uppercase tracking-widest text-accent font-semibold">Career History</span>
+          <h2 class="font-display text-3xl md:text-4xl font-bold mt-2 mb-4">Work Experience</h2>
+        </div>
+        <div class="md:col-span-8">
+          <div class="relative pl-8 border-l border-zinc-800">
+            <!-- Timeline Item -->
+            <div class="mb-12 relative">
+              <div class="absolute -left-[37px] top-1 w-4 h-4 rounded-full bg-dark-950 border-2 border-accent"></div>
+              <h3 class="text-xl font-bold text-white">Graphic & Motion Designer</h3>
+              <div class="text-sm text-accent font-semibold mt-1 mb-3">All About Ideas | Sep 2024 - Present[cite: 1]</div>
+              <ul class="space-y-2 text-sm text-zinc-400 list-disc list-inside">
+                <li>Designed impactful digital creatives and campaign assets for leading finance and insurance brands[cite: 1].</li>
+                <li>Delivered brand-compliant creatives for Aditya Birla Capital, Avanse, ICICI Lombard, and Atharva[cite: 1].</li>
+                <li>Collaborated cross-functionally to conceptualize and execute integrated marketing campaigns[cite: 1].</li>
+                <li>Presented and iterated on creative concepts based on internal and client feedback[cite: 1].</li>
+                <li>Produced engaging social media content, presentations, brochures, and other marketing collateral[cite: 1].</li>
+                <li>Successfully managed multiple client projects while meeting quality standards and deadlines[cite: 1].</li>
+                <li>Applied AI & Automation for Social Media Marketing using ChatGPT, Gemini, Midjourney, Firefly & Kling AI[cite: 1].</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="max-w-6xl mx-auto px-6 py-20 border-t border-zinc-800/80">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+        <div class="md:col-span-5">
+          <div class="p-2 rounded-2xl border border-zinc-800 bg-dark-900/60 shadow-2xl relative group">
+            <div class="aspect-square rounded-xl bg-zinc-900 overflow-hidden border border-zinc-800 relative">
+              <img 
+                src="abhay.jpg" 
+                alt="Abhay Gupta" 
+                class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-dark-950/40 via-transparent to-transparent pointer-events-none"></div>
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-7">
+          <span class="text-xs uppercase tracking-widest text-accent font-semibold">About Abhay</span>
+          <h2 class="font-display text-3xl md:text-4xl font-bold mt-2 mb-6">Transforming ideas into engaging visual experiences.</h2>
+          <p class="text-zinc-400 leading-relaxed mb-4">
+            I am a Graphic & Motion Designer based in Powai, Mumbai, with hands-on experience in branding, social media design, and visual storytelling[cite: 1]. My workflow combines traditional Adobe Creative Suite tools with cutting-edge AI technologies to bring concepts to life[cite: 1].
+          </p>
+          <p class="text-zinc-400 leading-relaxed mb-8">
+            Whether building comprehensive visual guidelines for a new brand, producing high-impact marketing collateral, or delivering eye-catching motion assets for digital channels, I focus on clean composition, rhythm, and current design trends[cite: 1].
+          </p>
+
+          <div class="flex flex-wrap items-center gap-5">
+            <a href="Abhay_Gupta_CV..pdf" target="_blank" class="inline-flex items-center gap-2 text-sm font-semibold text-white bg-accent px-4 py-2 rounded-lg hover:bg-indigo-600 transition">
+              <i data-lucide="file-text" class="w-4 h-4"></i>
+              Resume
+            </a>
+            <a href="https://www.linkedin.com/in/abhay-gupta-377b91340?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm text-zinc-300 hover:text-accent transition">
+              <i data-lucide="linkedin" class="w-4 h-4 text-accent"></i>
+              LinkedIn
+            </a>
+            <a href="https://www.behance.net/abhaygupta75" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm text-zinc-300 hover:text-accent transition">
+              <i data-lucide="behance" class="w-4 h-4 text-accent"></i>
+              Behance
+            </a>
+            <a href="mailto:510abhaygupta@gmail.com" class="inline-flex items-center gap-2 text-sm text-zinc-300 hover:text-accent transition">
+              <i data-lucide="mail" class="w-4 h-4 text-accent"></i>
+              510abhaygupta@gmail.com
+            </a>
+            <a href="tel:+919065276184" class="inline-flex items-center gap-2 text-sm text-zinc-300 hover:text-accent transition">
+              <i data-lucide="phone" class="w-4 h-4 text-accent"></i>
+              +91 90652 76184
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Toolkit & Skills -->
+    <section id="skills" class="max-w-6xl mx-auto px-6 py-20 border-t border-zinc-800/80">
+      <div class="text-center max-w-xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-widest text-accent font-semibold">Technical Stack</span>
+        <h2 class="font-display text-3xl md:text-4xl font-bold mt-2">Tools & Capabilities</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        
+        <!-- Graphic Design -->
+        <div class="p-6 rounded-xl border border-zinc-800/70 bg-dark-900/40">
+          <i data-lucide="pen-tool" class="w-6 h-6 mb-4 text-accent"></i>
+          <h4 class="font-bold text-lg text-white mb-3">Graphic Design</h4>
+          <ul class="space-y-2 text-sm text-zinc-400">
+            <li>• Branding & Identity[cite: 1]</li>
+            <li>• Social Media Design[cite: 1]</li>
+            <li>• Print Design & Collateral[cite: 1]</li>
+            <li>• Presentation Design[cite: 1]</li>
+          </ul>
+        </div>
+
+        <!-- Motion & Video -->
+        <div class="p-6 rounded-xl border border-zinc-800/70 bg-dark-900/40">
+          <i data-lucide="video" class="w-6 h-6 mb-4 text-accent"></i>
+          <h4 class="font-bold text-lg text-white mb-3">Motion Graphics</h4>
+          <ul class="space-y-2 text-sm text-zinc-400">
+            <li>• After Effects Animation</li>
+            <li>• Video Editing[cite: 1]</li>
+            <li>• Visual Effects[cite: 1]</li>
+            <li>• Premiere Pro workflows</li>
+          </ul>
+        </div>
+
+        <!-- AI & Automation -->
+        <div class="p-6 rounded-xl border border-zinc-800/70 bg-dark-900/40">
+          <i data-lucide="bot" class="w-6 h-6 mb-4 text-accent"></i>
+          <h4 class="font-bold text-lg text-white mb-3">AI & Creative Tools</h4>
+          <ul class="space-y-2 text-sm text-zinc-400">
+            <li>• Midjourney & Adobe Firefly[cite: 1]</li>
+            <li>• Runway ML & Kling AI[cite: 1]</li>
+            <li>• ChatGPT Integration[cite: 1]</li>
+            <li>• Automation via Google Sheets[cite: 1]</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-zinc-900 py-10 text-center text-xs text-zinc-500 flex flex-col items-center gap-3">
+    <div class="flex flex-wrap justify-center items-center gap-6 text-zinc-400">
+      <a href="mailto:510abhaygupta@gmail.com" class="hover:text-accent transition">510abhaygupta@gmail.com</a>
+      <span>•</span>
+      <a href="tel:+919065276184" class="hover:text-accent transition">+91 90652 76184</a>
+      <span>•</span>
+      <a href="https://www.linkedin.com/in/abhay-gupta-377b91340?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" class="hover:text-accent transition inline-flex items-center gap-1">
+        <span>LinkedIn</span>
+        <i data-lucide="external-link" class="w-3 h-3"></i>
+      </a>
+      <span>•</span>
+      <a href="https://www.behance.net/abhaygupta75" target="_blank" rel="noopener noreferrer" class="hover:text-accent transition inline-flex items-center gap-1">
+        <span>Behance</span>
+        <i data-lucide="external-link" class="w-3 h-3"></i>
+      </a>
+      <span>•</span>
+      <a href="https://www.instagram.com/creative.studi01?igsh=MTFycDZ6cm9zMnpnYw==" target="_blank" rel="noopener noreferrer" class="hover:text-accent transition inline-flex items-center gap-1">
+        <span>Instagram</span>
+        <i data-lucide="external-link" class="w-3 h-3"></i>
+      </a>
+    </div>
+    <p>© 2026 Abhay Gupta. All rights reserved.</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
